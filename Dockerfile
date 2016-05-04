@@ -4,4 +4,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     metasploit-framework \
  && apt-get clean
 
- EXPOSE 80
+ EXPOSE 8080 4444
